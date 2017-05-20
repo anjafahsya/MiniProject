@@ -20,6 +20,10 @@ public partial class Package : System.Web.UI.Page
     {
         Response.Redirect("~/package/BagPack.aspx");
     }
+    protected void Button7_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/package/SilyPack.aspx");
+    }
     protected void Button3_Click(object sender, EventArgs e)
     {
         Response.Redirect("~/package/AdultPack.aspx");
